@@ -1,0 +1,193 @@
+{
+    "projectPath": "./vlocity-app/",
+    "namespace": "vlocity_cmt",
+    "manifestOnly": true,
+    "manifest": [
+        "VlocityUILayout/sktl_RelatedListLayout"
+    ],
+    "jobName": "manifest.yaml",
+    "job": "manifest.yaml",
+    "maxDepth": 0,
+    "propertyfile": "Build.properties",
+    "tempFolder": "./vlocity-temp/",
+    "source": "local",
+    "target": "local",
+    "username": "akshay.sethia@sasktel.com.capdev5",
+    "loginUrl": "https://test.salesforce.com",
+    "passedInOptionsOverride": {
+        "job": "manifest.yaml",
+        "maxDepth": 0,
+        "propertyfile": "Build.properties"
+    },
+    "jobAction": "Export",
+    "expansionPath": ".",
+    "buildFile": "AllDataPacks.json",
+    "postStepApex": {
+        "Deploy": {
+            "Product2": {
+                "apexClass": "EPCProductJSONUpdate.cls",
+                "namespace": "vlocity_cmt"
+            }
+        }
+    },
+    "delete": true,
+    "activate": true,
+    "compileOnBuild": true,
+    "defaultMaxParallel": 100,
+    "defaultMinToWaitForLWCOmniScript": 10,
+    "defaultMinToWaitForLWCClassicCards": 10,
+    "defaultMinToWaitForLWCFlexCards": 5,
+    "defaultLWCPullTimeInSeconds": 5,
+    "loginTimeoutForLoginLWC": 300000,
+    "puppeteerHeadless": true,
+    "lookForParentLayoutsForlWCCards": true,
+    "exportPacksMaxSize": 5,
+    "useAllRelationships": false,
+    "ignoreAllErrors": false,
+    "addSourceKeys": false,
+    "maximumDeployCount": 10,
+    "autoUpdateSettings": true,
+    "supportHeadersOnly": true,
+    "allowHeadersPartial": true,
+    "supportForceDeploy": true,
+    "strict": false,
+    "cleanTestData": true,
+    "autoFixPicklists": true,
+    "reactivateOmniScriptsWhenEmbeddedTemplateFound": false,
+    "autoFixDeployErrors": {
+        "AttributeCategoryDisplaySequence": true
+    },
+    "tests": [
+        "Local",
+        "Org"
+    ],
+    "npmRepository": "https://repo.vlocity.com/repository/vlocity-public/",
+    "startTime": 1648641302502,
+    "originalAction": "Export",
+    "logName": "manifest-yaml-2022-03-30T11-55-20-490Z-Export.yaml",
+    "alreadyExportedKeys": [
+        "6944d5fd0eaf9f23a47eef84bd025ad3"
+    ],
+    "allParents": [
+        "VlocityUILayout/sktl_RelatedListLayout"
+    ],
+    "errors": [],
+    "report": [],
+    "postDeployResults": [],
+    "preDeployDataSummary": [],
+    "refreshVlocityBase": [],
+    "expandedDataPacks": [
+        "6944d5fd0eaf9f23a47eef84bd025ad3",
+        "6944d5fd0eaf9f23a47eef84bd025ad3"
+    ],
+    "currentStatus": {
+        "6944d5fd0eaf9f23a47eef84bd025ad3": "Success"
+    },
+    "currentErrors": {},
+    "parallelStatus": {},
+    "sourceKeysByParent": {
+        "%vlocity_namespace%__VlocityUILayout__c/sktl_RelatedListLayout": [
+            "6944d5fd0eaf9f23a47eef84bd025ad3"
+        ]
+    },
+    "alreadyExportedIdsByType": {
+        "VlocityUILayout": [
+            "a4D4c000000084fEAA",
+            "a4D4c000000084f",
+            "sktl_RelatedListLayout"
+        ]
+    },
+    "alreadyErroredIdsByType": {
+        "VlocityUILayout": []
+    },
+    "alreadyRetriedIdsByType": {},
+    "keyToType": {},
+    "vlocityKeysToNewNamesMap": {
+        "VlocityRecordSourceKey:a4D4c000000084fEAA": "%vlocity_namespace%__VlocityUILayout__c/sktl_RelatedListLayout",
+        "6944d5fd0eaf9f23a47eef84bd025ad3": "VlocityUILayout/sktl_RelatedListLayout",
+        "VlocityUILayout/sktl_RelatedListLayout": "VlocityUILayout/sktl_RelatedListLayout"
+    },
+    "vlocityRecordSourceKeyMap": {
+        "VlocityRecordSourceKey:a4D4c000000084fEAA": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4D4c000000084fEAA",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__VlocityUILayout__c/sktl_RelatedListLayout",
+            "Name": "sktl_RelatedListLayout"
+        },
+        "a4D4c000000084fEAA": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4D4c000000084fEAA",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__VlocityUILayout__c/sktl_RelatedListLayout",
+            "Name": "sktl_RelatedListLayout"
+        }
+    },
+    "VlocityDataPackIds": {
+        "a3y1f000004EAUvAAO": "Complete"
+    },
+    "generatedKeysToNames": {},
+    "sourceKeyToRecordId": {},
+    "sourceKeyToMatchingKeysData": {},
+    "dataPackKeyToPrimarySourceKey": {},
+    "diffType": {},
+    "sourceHashCodes": {},
+    "targetHashCodes": {},
+    "fullManifest": {
+        "VlocityUILayout": {
+            "a4D4c000000084fEAA": {
+                "Id": "a4D4c000000084fEAA",
+                "Name": "sktl_RelatedListLayout",
+                "VlocityDataPackType": "VlocityUILayout",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+                "VlocityDataPackDisplayLabel": "sktl_RelatedListLayout",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/vlocity_cmt__carddesignernew?id=?id=a4D4c000000084fEAA"
+            }
+        }
+    },
+    "manifestFound": {},
+    "dataPackDisplayLabels": {},
+    "allDataSummary": {
+        "6944d5fd0eaf9f23a47eef84bd025ad3": {
+            "VlocityDataPackDisplayLabel": "sktl_RelatedListLayout",
+            "VlocityDataPackType": "VlocityUILayout"
+        }
+    },
+    "pendingFromManifest": {},
+    "keysToDirectories": {},
+    "VlocityDataPackKeyToUrlMapping": {},
+    "relationshipKeyToChildKeys": {},
+    "dataPackLabelsByDir": {},
+    "upgradeDataPackFields": false,
+    "specificManifestKeys": [
+        "VlocityUILayout/sktl_RelatedListLayout"
+    ],
+    "queries": [
+        {
+            "VlocityDataPackType": "VlocityUILayout",
+            "query": "Select Id, Name from %vlocity_namespace%__VlocityUILayout__c WHERE %vlocity_namespace%__Active__c = true"
+        }
+    ],
+    "supportParallel": true,
+    "specificManifestObjects": null,
+    "shouldSendUpdates": true,
+    "initialized": true,
+    "toExportGroups": [
+        [
+            {
+                "Id": "a4D4c000000084fEAA",
+                "Name": "sktl_RelatedListLayout",
+                "VlocityDataPackType": "VlocityUILayout",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+                "VlocityDataPackDisplayLabel": "sktl_RelatedListLayout",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/vlocity_cmt__carddesignernew?id=?id=a4D4c000000084fEAA"
+            }
+        ]
+    ],
+    "exportRemaining": 0,
+    "elapsedTime": "1m 40s",
+    "records": [
+        {
+            "VlocityDataPackKey": "VlocityUILayout/sktl_RelatedListLayout",
+            "VlocityDataPackDisplayLabel": "sktl_RelatedListLayout",
+            "VlocityDataPackType": "VlocityUILayout",
+            "VlocityDataPackStatus": "Success"
+        }
+    ]
+}

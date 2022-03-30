@@ -1,0 +1,38 @@
+{
+    "Cards": [
+    ],
+    "GlobalKey__c": "sktl_RelatedListLayout/2/RY/1605805746069",
+    "bypassSave": true,
+    "componentName": "cfSktl_RelatedListLayout",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0011f00000N00fHAAR"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "sktl_DRExtract_AccountContactRelations",
+            "inputMap": {
+                "accountId": "{{params.id}}",
+                "contactId": "{{params.id}}"
+            }
+        }
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "sktlRelatedListCard",
+        "Id": "0Rb4g00000004qLCAQ",
+        "MasterLabel": "sktlRelatedListCard",
+        "name": "sktlRelatedListCard"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "sessionVars": [
+        {
+            "name": "columns",
+            "val": "[   {     \"label\": \"Contact Name\",     \"type\": \"url\",     \"fieldName\": \"ContactId\",     \"wrapText\": true,     \"initialWidth\": 180,     \"typeAttributes\": {       \"label\": {         \"fieldName\": \"ContactName\"       },       \"tooltip\": {         \"fieldName\": \"ContactName\"       },       \"target\": \"_blank\"     }   },   {     \"label\": \"Account Number\",     \"type\": \"button\",     \"wrapText\": true,     \"initialWidth\": 120,     \"typeAttributes\": {       \"label\": {         \"fieldName\": \"AccountNumber\"       },       \"variant\": \"base\",       \"iconName\": {         \"fieldName\": \"displayAccountIcon\"       },       \"name\": \"Account\"     },     \"cellAttributes\": {       \"alignment\": \"center\"     }   },   {     \"fieldName\": \"AccountRecordType\",     \"label\": \"Account Type\",     \"type\": \"text\",     \"wrapText\": true,     \"initialWidth\": 100   },   {     \"fieldName\": \"Title\",     \"label\": \"Title\",     \"type\": \"text\",     \"wrapText\": true,     \"initialWidth\": 100   },   {     \"fieldName\": \"Phone\",     \"label\": \"Phone\",     \"type\": \"phone\",     \"wrapText\": true,     \"initialWidth\": 120   },   {     \"fieldName\": \"Ext\",     \"label\": \"Ext\",     \"type\": \"text\",     \"wrapText\": true,     \"initialWidth\": 120   },   {     \"fieldName\": \"Email\",     \"label\": \"Email\",     \"type\": \"email\",     \"wrapText\": true,     \"initialWidth\": 150   },   {     \"label\": \"Roles\",     \"type\": \"button\",     \"wrapText\": true,     \"initialWidth\": 180,     \"typeAttributes\": {       \"label\": {         \"fieldName\": \"Roles\"       },       \"variant\": \"base\",       \"iconName\": {         \"fieldName\": \"displayRolesIcon\"       },       \"name\": \"ACR\"     },     \"cellAttributes\": {       \"alignment\": \"center\"     }   },   {     \"label\": \"Status\",     \"type\": \"button\",     \"initialWidth\": 100,     \"typeAttributes\": {       \"label\": {         \"fieldName\": \"IsActive\"       },       \"variant\": {         \"fieldName\": \"ActiveVariant\"       },       \"name\": \"Status\"     },     \"cellAttributes\": {       \"alignment\": \"center\"     }   },   {     \"label\": \"Authorized\",     \"type\": \"button\",     \"initialWidth\": 150,     \"typeAttributes\": {       \"label\": {         \"fieldName\": \"IsAuthorized\"       },       \"variant\": {         \"fieldName\": \"AuthorizedVariant\"       },       \"name\": \"Authorized\"     },     \"cellAttributes\": {       \"alignment\": \"center\"     }   },   {     \"fieldName\": \"IsAutomatedCalls\",     \"label\": \"Automated Calls\",     \"type\": \"text\",     \"initialWidth\": 80   } ]"
+        }
+    ]
+}

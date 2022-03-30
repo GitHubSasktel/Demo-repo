@@ -1,0 +1,6 @@
+projectPath: ./vlocity-app/
+namespace: vlocity_cmt
+manifestOnly: true
+manifest:
+    # Defects-1455 Hot fix changes
+    - VlocityUILayout/sktl_RelatedListLayout

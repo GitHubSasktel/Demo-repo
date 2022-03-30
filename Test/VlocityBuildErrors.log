@@ -1,0 +1,8 @@
+Org: akshay.sethia@sasktel.com.capdev5
+Version: 1.15.2
+PackageVersion: 900.442
+Namespace: vlocity_cmt
+Job: manifest.yaml
+Action: Export
+ProjectPath: ./vlocity-app/
+Errors: None

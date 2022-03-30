@@ -1,0 +1,22 @@
+Org: akshay.sethia@sasktel.com.capdev5
+Version: 1.15.2
+Node: v16.13.1
+PackageVersion: '900.442'
+Namespace: vlocity_cmt
+Job: VDX
+Action: Export
+ProjectPath: ./vlocity-app/
+TotalTime: 1m 40s
+Count:
+  Success:
+    VlocityUILayout: 1
+Errors: []
+Status:
+  Success:
+    VlocityUILayout:
+      - sktl_RelatedListLayout
+StatusCount:
+  Remaining: 0
+  Success: 1
+  Error: 0
+id: !<tag:yaml.org,2002:js/undefined> ''
